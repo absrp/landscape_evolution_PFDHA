@@ -9,13 +9,13 @@ ABSTRACT
 ## Getting Started
 
 Create a conda environment to run the project using the provided yml file: 
-
+```
 conda env create -f environment.yml
-
+```
 and activate the environment: 
-
+```
 conda activate scarp_erosion
-
+```
 <!-- ROADMAP -->
 ### Scripts contained
 
