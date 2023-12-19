@@ -30,7 +30,7 @@ conda activate scarp_erosion
 We define the degradation coefficient $\phi$ as:
 
 $$
-\phi = mean(\frac{slope_{t0}}{slope_{t}})
+\phi = mean(\frac{\sum{slope_{t0}}}{\sum{slope_{t}}})
 $$
   
 - [ ] length_loss_analysis.ipynb
