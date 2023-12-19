@@ -1,0 +1,14 @@
+name: scarp_erosion
+channels:
+  - defaults
+dependencies:
+  - python
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - landlab
+  - gdal
+  - ipykernel
+  - matplotlib_scalebar
+  # Add any other packages you need for your project
