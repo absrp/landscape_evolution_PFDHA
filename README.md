@@ -28,11 +28,11 @@ conda activate scarp_erosion
     - [ ] Output 2: computation and plotting of the degradation coeffient over time and fitting of a power-law relationship through it
 
 We define the degradation coefficient $\phi$ as:
-$
+$$
 \begin{equation}
 \phi = mean(\frac{slope_{t0}}{slope_{t}})
 \end{equation}
-$
+$$
   
 - [ ] length_loss_analysis.ipynb
     - [ ] A script that inputs a series of shapefiles mapping scarps at different timescales and estimates the length of scarp map at every time
