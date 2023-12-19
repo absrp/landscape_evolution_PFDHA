@@ -19,10 +19,24 @@ conda activate scarp_erosion
 <!-- ROADMAP -->
 ### Scripts contained
 
-- [ ] To measure the geometry of earthquake gates in a shapefile
-    - [ ] Run the "measure_EQgates.m" Matlab script (must run in directory containing shapefiles)
-    - [ ] This will output a csv file with the characterized gates
-    - [ ] To measure the spacing between earthquake gate, run the "gatespacing.m" script. This script produces a pdf output fitting log-normal and exponential CDFs to the ECDF of the gate spacings.
+- [ ] scarp_erosion_simulation.ipynb
+    - [ ] A script that inputs a DEM and, under the user's choice of diffusion conditions, generates a synthetic DEM that has experienced landscape evolution over a     user-defined timescale
+
+- [ ] information_loss_analysis.ipynb
+    - [ ] A script that inputs a DEM and, under the user's choice of diffusion conditions, generates a synthetic DEM that has experienced landscape evolution over a     user-defined timescale, and estimates the information loss at different time-steps.
+    - [ ] Output 1: distribution of slopes in the landscape and their evolution over time, as well as a map of the elevation difference over time
+    - [ ] Output 2: computation and plotting of the degradation coeffient over time and fitting of a power-law relationship through it
+
+We define the degradation coefficient $\phi$ as:
+$
+\begin{equation}
+\phi = mean(\frac{slope_{t0}}{slope_{t}})
+\end{equation}
+$
+  
+- [ ] length_loss_analysis.ipynb
+    - [ ] A script that inputs a series of shapefiles mapping scarps at different timescales and estimates the length of scarp map at every time
+    - [ ] Output 1: plot of the change in mapped length over time
 
 
 <!-- CONTACT -->
