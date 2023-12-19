@@ -21,6 +21,7 @@ conda activate scarp_erosion
 
 - [ ] scarp_erosion_simulation.ipynb
     - [ ] A script that inputs a DEM and, under the user's choice of diffusion conditions, generates a synthetic DEM that has experienced landscape evolution over a     user-defined timescale
+    - [ ] Output 1: synthetic DEM is ascii format
 
 - [ ] information_loss_analysis.ipynb
     - [ ] A script that inputs a DEM and, under the user's choice of diffusion conditions, generates a synthetic DEM that has experienced landscape evolution over a     user-defined timescale, and estimates the information loss at different time-steps.
