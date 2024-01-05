@@ -20,7 +20,7 @@ conda activate scarp_erosion
 ### Scripts contained
 
 - [ ] scarp_erosion_simulation.ipynb
-    - [ ] A script that inputs a DEM and, under the user's choice of diffusion conditions, generates a synthetic DEM that has experienced landscape evolution over a     user-defined timescale
+    - [ ] A script that inputs a DEM and, under the user's choice of diffusion conditions, generates a synthetic DEM that has experienced landscape evolution over a     user-defined timescale. Linear diffusion is the only diffusion implementation available as of January 2024. 
     - [ ] Output 1: synthetic DEM is ascii format
 
 - [ ] information_loss_analysis.ipynb
@@ -34,9 +34,10 @@ $$
 \phi = mean(\frac{\sum{slope_{t0}}}{\sum{slope_{t}}})
 $$
   
-- [ ] length_loss_analysis.ipynb
+- [ ] length_loss_analysis.ipynb - in development
     - [ ] A script that inputs a series of shapefiles mapping scarps at different timescales and estimates the length of scarp map at every time
     - [ ] Output 1: plot of the change in mapped length over time
+
 
 
 <!-- CONTACT -->
