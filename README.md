@@ -51,3 +51,9 @@ Project Link: [https://github.com/absrp/landscape_evolution_PFDHA](https://githu
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- AUTHORS -->
+## Authors
+
+Alba M. Rodriguez Padilla (Caltech)
+Mindy Zuckerman (ASU)
+Ramon Arrowsmith (ASU)
