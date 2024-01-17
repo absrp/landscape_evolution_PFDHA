@@ -8,6 +8,10 @@ ABSTRACT
 <!-- GETTING STARTED -->
 ## Getting Started
 
+Install Landlab https://landlab.readthedocs.io/en/master/installation.html
+```
+conda install landlab -c nodefaults -c conda-forge --override-channels
+```
 Create a conda environment to run the project using the provided yml file: 
 ```
 conda env create -f environment.yml
