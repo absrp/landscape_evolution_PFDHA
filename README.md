@@ -7,7 +7,10 @@ ABSTRACT
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
+Install GDAL
+```
+conda install -c conda-forge gdal
+```
 Create a conda environment to run the project using the provided yml file: 
 ```
 conda env create -f environment.yml
