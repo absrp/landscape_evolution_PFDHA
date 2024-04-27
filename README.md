@@ -5,49 +5,27 @@ A set of scripts to simulate the effect of landscape evolution on coseismic scar
 ## About The Project
 ABSTRACT
 
-<!-- GETTING STARTED -->
-## Getting Started
-Install GDAL
-```
-conda install -c conda-forge gdal
-```
-Install Landlab https://landlab.readthedocs.io/en/master/installation.html
-```
-conda install landlab -c nodefaults -c conda-forge --override-channels
-```
-Create a conda environment to run the project using the provided yml file: 
-```
-conda env create -f environment.yml
-```
-and activate the environment: 
-```
-conda activate scarp_erosion
-```
 <!-- ROADMAP -->
 ### Scripts contained
 
 - [ ] scarp_erosion_simulation.ipynb
-    - [ ] A script that inputs a DEM and, under the user's choice of diffusion conditions, generates a synthetic DEM that has experienced landscape evolution over a     user-defined timescale. Linear diffusion is the only diffusion implementation available as of January 2024. 
+    - [ ] A script that inputs a DEM and, under the user's choice of diffusion conditions, generates a synthetic DEM that has experienced landscape evolution over a  user-defined timescale. Linear diffusion is the only diffusion implementation available as of April 2024. 
     - [ ] Output 1: synthetic DEM is ascii format
 
 - [ ] information_loss_analysis.ipynb
-    - [ ] A script that inputs a DEM and, under the user's choice of diffusion conditions, generates a synthetic DEM that has experienced landscape evolution over a     user-defined timescale, and estimates the information loss at different time-steps.
+    - [ ] A script that inputs a DEM and shapefiles and, under the user's choice of diffusion conditions, generates a synthetic DEM that has experienced landscape evolution over a user-defined timescale, and estimates the information loss at different time-steps.
     - [ ] Output 1: distribution of slopes in the landscape and their evolution over time, as well as a map of the elevation difference over time
     - [ ] Output 2: computation and plotting of the degradation coeffient over time and fitting of a power-law relationship through it
+    - [ ] Output 3: measuring and plotting the change in mapped line length over time from the input shapefiles at each time step
 
 We define the degradation coefficient $\phi$ as:
 
 $$
 \phi = mean(\frac{\sum{slope_{t0}}}{\sum{slope_{t}}})
 $$
-  
-- [ ] length_loss_analysis.ipynb - in development
-    - [ ] A script that inputs a series of shapefiles mapping scarps at different timescales and estimates the length of scarp map at every time
-    - [ ] Output 1: plot of the change in mapped length over time
-
 
 ### Sample model 
-[test.pdf](https://github.com/absrp/landscape_evolution_PFDHA/files/15135808/test.pdf)
+[test.pdf](https://github.com/absrp/landscape_evolution_PFDHA/files/15136182/test.pdf)
 
 
 <!-- CONTACT -->
