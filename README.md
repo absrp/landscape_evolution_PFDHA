@@ -33,7 +33,7 @@ $$
 
 Please report suggestions and issues:
 
-[@_absrp](https://twitter.com/_absrp) - alba@caltech.edu
+[@_absrp](https://twitter.com/_absrp) - alba@caltech.edu, amrodriguezpadilla@gmail.com
 
 Project Link: [https://github.com/absrp/landscape_evolution_PFDHA](https://github.com/absrp/landscape_evolution_PFDHA)
 
@@ -43,5 +43,7 @@ Project Link: [https://github.com/absrp/landscape_evolution_PFDHA](https://githu
 ## Contributors
 
 Alba M. Rodriguez Padilla (Caltech)
+
 Mindy Zuckerman (ASU)
+
 Ramon Arrowsmith (ASU)
