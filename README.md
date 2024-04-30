@@ -33,7 +33,7 @@ $$
 
 Please report suggestions and issues:
 
-[@_absrp](https://twitter.com/_absrp) - alba@caltech.edu, amrodriguezpadilla@gmail.com
+Email: alba@caltech.edu, amrodriguezpadilla@gmail.com
 
 Project Link: [https://github.com/absrp/landscape_evolution_PFDHA](https://github.com/absrp/landscape_evolution_PFDHA)
 
