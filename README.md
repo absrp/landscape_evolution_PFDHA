@@ -25,7 +25,7 @@ $$
 $$
 
 ### Sample model 
-<img width="744" alt="Screenshot 2024-04-26 at 6 54 01 PM" src="https://github.com/absrp/landscape_evolution_PFDHA/assets/52015046/3fd9fae5-212e-47c6-87d6-e6a5ef073e18">
+<img width="750" alt="image" src="https://github.com/absrp/landscape_evolution_PFDHA/assets/52015046/14b1f8a2-c968-404a-94a0-fea9b46c54cd">
 
 
 <!-- CONTACT -->
