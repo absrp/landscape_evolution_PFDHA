@@ -20,11 +20,13 @@ ABSTRACT
 
 We define the degradation coefficient $\phi$ as:
 
+$$ 
 \begin{equation}
 
 \phi = \frac{{med(slope_{t0})}}{{med(slope_{t})}}
 
 \end{equation}
+$$ 
 
 ### Sample model 
 <img width="750" alt="image" src="https://github.com/absrp/landscape_evolution_PFDHA/assets/52015046/14b1f8a2-c968-404a-94a0-fea9b46c54cd">
