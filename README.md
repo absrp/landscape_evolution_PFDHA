@@ -21,7 +21,8 @@ ABSTRACT
 We define the degradation coefficient $\phi$ as:
 
 $$
-\phi = mean(\frac{\sum{slope_{t0}}}{\sum{slope_{t}}})
+\phi = \frac{med({slope_{t0}(}}{med({slope_{t}})}
+
 $$
 
 ### Sample model 
