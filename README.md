@@ -22,11 +22,9 @@ We define the degradation coefficient $\phi$ as:
 
 $$$ 
 
-\begin{equation}
 
 \phi = \frac{{med(slope_{t0})}}{{med(slope_{t})}}
 
-\end{equation}
 
 $$$ 
 
