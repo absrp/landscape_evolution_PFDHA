@@ -22,7 +22,7 @@ We define the degradation coefficient $\phi$ as:
 
 
 ```math
-\phi = \frac{mod(slope_{t0})}{mod(slope_{t})}
+\phi = \frac{mod(slope_{t})}{mod(slope_{t0})}
 ```
 
 
