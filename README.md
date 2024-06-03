@@ -1,5 +1,5 @@
 # landscape_evolution_PFDHA
-A set of scripts to simulate the effect of landscape evolution on coseismic scarp and quantify the information loss associated with landscape evolution.
+A set of scripts to simulate the effect of surface processes on surface ruptures and quantify the information loss associated with landscape evolution over time.
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -9,8 +9,8 @@ ABSTRACT
 ### Scripts contained
 
 - [ ] scarp_erosion_simulation.ipynb
-    - [ ] A script that inputs a DEM and, under the user's choice of diffusion conditions, generates a synthetic DEM that has experienced landscape evolution over a  user-defined timescale. Linear diffusion is the only diffusion implementation available as of April 2024. 
-    - [ ] Output 1: synthetic DEM is ascii format
+    - [ ] A script that inputs a DEM and, under the user's choice of diffusion conditions, generates a synthetic DEM that has experienced landscape evolution over a  user-defined timescale. Linear diffusion is the only diffusion implementation available as of June 2024. 
+    - [ ] Output 1: synthetic DEM in ascii format
 
 - [ ] information_loss_analysis.ipynb
     - [ ] A script that inputs a DEM and shapefiles and, under the user's choice of diffusion conditions, generates a synthetic DEM that has experienced landscape evolution over a user-defined timescale, and estimates the information loss at different time-steps.
