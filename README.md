@@ -23,8 +23,7 @@ ABSTRACT
     - [ ] Output 1: plot showing the evolution of degradation coefficient and line lenght for each model over time, each fit by different non-linear relationships
       
 ### Sample pdf output for one location 
-<img width="476" alt="image" src="https://github.com/absrp/landscape_evolution_PFDHA/assets/52015046/4392e6e8-6aef-40c5-abc4-7f32a2cc80c1">
-
+<img width="534" alt="image" src="https://github.com/absrp/landscape_evolution_PFDHA/assets/52015046/22ebf383-1d0f-4c49-847a-bee6e5cbada2">
 
 <!-- CONTACT -->
 ## Contact
