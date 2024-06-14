@@ -8,10 +8,15 @@ ABSTRACT
 <!-- ROADMAP -->
 ### Scripts contained
 
-- [ ] scarp_erosion_simulation.ipynb
-    - [ ] A script that inputs a DEM and, under the user's choice of diffusion conditions, generates a synthetic DEM that has experienced landscape evolution over a  user-defined timescale. Linear diffusion is the only diffusion implementation available as of June 2024. 
+- [ ] scarp_erosion_simulation_linear.ipynb
+    - [ ] A script that inputs a DEM and, under the user's choice of diffusion conditions, using the linear landlab difussion implementation, generates a synthetic DEM that has experienced landscape evolution over a  user-defined timescale. 
     - [ ] Output 1: synthetic DEM in ascii format
 
+- [ ] scarp_erosion_simulation_nonlinear.ipynb
+    - [ ] A script that inputs a DEM and, under the user's choice of diffusion conditions, using the Taylor non-linear landlab difussion implementation for transport-limited landscape evolution, generates a synthetic DEM that has experienced landscape evolution over a  user-defined timescale. 
+    - [ ] Output 1: synthetic DEM in ascii format
+    - [ ] Output 2: elevation difference between the linear and non-linear solutions for a given time period
+    
 - [ ] information_loss_bulk.ipynb
     - [ ] A script that inputs a set of DEMs and shapefiles and, under the user's choice of diffusion conditions, generates a synthetic DEM that has experienced landscape evolution over a user-defined timescale, and estimates the information loss at different time-steps. 
     - [ ] Output 1: hillshades showing landscape evolution
