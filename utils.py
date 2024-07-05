@@ -25,6 +25,12 @@ def plot_evolution_time_linear(n_iter, shapefiles_input, DEM, epsg_code, save_YN
     tight_layout=True,
     figsize=(8,10),
     dpi=300)
+    
+    # set overall title
+    fig.suptitle(str(DEM)) 
+
+    
+    # to save in run 
     coeff_t = []
     years_t = []
     line_length = [] # for later plot
@@ -153,6 +159,12 @@ def plot_evolution_time_nonlinear(n_iter, shapefiles_input, DEM, epsg_code, save
     tight_layout=True,
     figsize=(8,10),
     dpi=300)
+    
+    # set overall title
+    fig.suptitle(str(DEM)) # or plt.suptitle('Main title')
+
+    
+    # make variables to save from this run
     coeff_t = []
     years_t = []
     line_length = [] # for later plot
