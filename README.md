@@ -2,6 +2,8 @@
 ## About The Project
 A set of scripts to simulate the effect of surface processes on surface ruptures and quantify the information loss associated with landscape evolution over time. Includes options to simulate surface processes with linear and non-linear diffusion, implemented using open-access code landlab.
 
+### Installation
+
 <!-- ROADMAP -->
 ### Scripts contained
 
