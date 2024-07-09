@@ -23,7 +23,8 @@ ABSTRACT
     - [ ] Output 2: evolution of measured line length over time
     - [ ] Output 3: evolution of height distribution in DEM with landscape evolution
     - [ ] Output 4: distribution of slopes in the landscape and their evolution over time, and computation of the degradation coefficient
-    The results are output as pdf files and into a csv file.
+Includes option to save the outputs as pdf files for each DEM in a csv file compiling all measured line lengths and degradation coefficients. Must select yes in the first cell.
+
 - [ ] degradation_coefficient_length_evolution_comparison.ipynb
     - [ ] Output 1: plot showing the evolution of degradation coefficient and line lenght for each model over time, each fit by different non-linear relationships
       
