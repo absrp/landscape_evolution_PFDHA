@@ -19,7 +19,7 @@ import matplotlib as mpl
 from landlab.components import TaylorNonLinearDiffuser
 
 
-def plot_evolution_time_linear(n_iter, shapefiles_input, DEM, epsg_code, save_YN, D=0.001):
+def plot_evolution_time_linear(n_iter, DEM, shapefiles_input, epsg_code, save_YN, D=0.001):
     fig, ax = plt.subplots(
     len(n_iter),4,
     tight_layout=True,
@@ -28,7 +28,6 @@ def plot_evolution_time_linear(n_iter, shapefiles_input, DEM, epsg_code, save_YN
     
     # set overall title
     fig.suptitle(str(DEM)) 
-
     
     # to save in run 
     coeff_t = []
@@ -51,6 +50,10 @@ def plot_evolution_time_linear(n_iter, shapefiles_input, DEM, epsg_code, save_YN
     plot_counter=0
     for p in range(max(n_iter)+1):
         if np.any(p == n_iter):
+            if p*dt<dt:
+                ValueError("The total time is smaller than the time-step!!")
+        
+        
             # plot hillshade
             fig.sca(ax[plot_counter,0])
             hillshade = mg.calc_hillshade_at_node(elevs=z, alt=30., az=100.)
@@ -112,6 +115,7 @@ def plot_evolution_time_linear(n_iter, shapefiles_input, DEM, epsg_code, save_YN
         qs[mg.active_links] = -D * g[mg.active_links]
         dzdt = -mg.calc_flux_div_at_node(qs)
         z[mg.core_nodes] += dzdt[mg.core_nodes] * dt  
+        
     scalebar = ScaleBar(
         0.5,
         units="m",
@@ -153,7 +157,7 @@ def plot_evolution_time_linear(n_iter, shapefiles_input, DEM, epsg_code, save_YN
 
     return line_length, coeff_t, years_t       
     
-def plot_evolution_time_nonlinear(n_iter, shapefiles_input, DEM, epsg_code, save_YN, D=0.001):
+def plot_evolution_time_nonlinear(n_iter, DEM, shapefiles_input, epsg_code, save_YN, D=0.001):
     fig, ax = plt.subplots(
     len(n_iter),4,
     tight_layout=True,
@@ -161,9 +165,8 @@ def plot_evolution_time_nonlinear(n_iter, shapefiles_input, DEM, epsg_code, save
     dpi=300)
     
     # set overall title
-    fig.suptitle(str(DEM)) # or plt.suptitle('Main title')
+    fig.suptitle(str(DEM)) 
 
-    
     # make variables to save from this run
     coeff_t = []
     years_t = []
