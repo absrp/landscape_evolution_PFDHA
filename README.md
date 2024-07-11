@@ -41,7 +41,7 @@ Please report suggestions and issues:
 
 Email: alba@caltech.edu, amrodriguezpadilla@gmail.com
 
-Project Link: [https://github.com/absrp/landscape_evolution_PFDHA](https://github.com/absrp/landscape_evolution_PFDHA)
+Project Link: [https://github.com/absrp/landscape_evolution_earthquake_ruptures](https://github.com/absrp/landscape_evolution_earthquake_ruptures)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
