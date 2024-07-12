@@ -12,11 +12,11 @@ conda activate scarp_erosion
 ### Scripts contained
 
 - [ ] scarp_erosion_simulation_linear.ipynb
-    - [ ] A script that inputs a DEM and, under the user's choice of diffusion conditions, using the linear landlab difussion implementation, generates a synthetic DEM that has experienced landscape evolution over a  user-defined timescale. 
+    - [ ] A script that inputs a DEM and, under the user's choice of diffusion conditions, using the linear landlab diffusion implementation, generates a synthetic DEM that has experienced landscape evolution over a  user-defined timescale. 
     - [ ] Output 1: synthetic DEM in ascii format
 
 - [ ] scarp_erosion_simulation_nonlinear.ipynb
-    - [ ] A script that inputs a DEM and, under the user's choice of diffusion conditions, using the Taylor non-linear landlab difussion implementation for transport-limited landscape evolution, generates a synthetic DEM that has experienced landscape evolution over a  user-defined timescale. 
+    - [ ] A script that inputs a DEM and, under the user's choice of diffusion conditions, using the Taylor non-linear landlab diffusion implementation for transport-limited landscape evolution, generates a synthetic DEM that has experienced landscape evolution over a  user-defined timescale. 
     - [ ] Output 1: synthetic DEM in ascii format
     - [ ] Output 2: elevation difference between the linear and non-linear solutions for a given time period
     
