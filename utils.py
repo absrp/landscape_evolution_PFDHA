@@ -335,3 +335,6 @@ def func_deg_coeff(x,a,c):
 
 def func_line_length(x,a,b,c):
     return b - (c * x) / (x + a)
+
+def normalize_length(row,length_at_time_zero):
+    return row['Length (m)'] / length_at_time_zero[row['DEM ID']]
