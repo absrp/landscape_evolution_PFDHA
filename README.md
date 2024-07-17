@@ -34,9 +34,6 @@ Includes option to save the outputs as pdf files for each DEM in a csv file comp
 - [ ] soil_flux_slope_exploration.ipynb
     - [ ] Output 1: plot showing the relationship between soil flux and slope under different transport laws. Includes linear diffusion, and non-linear solutions from Di Michieli Vitturi and Arrowsmith (2013) and Ganti (2013).
     
-### Sample pdf output for one location 
-<img width="534" alt="image" src="https://github.com/absrp/landscape_evolution_PFDHA/assets/52015046/22ebf383-1d0f-4c49-847a-bee6e5cbada2">
-
 <!-- CONTACT -->
 ## Contact
 
